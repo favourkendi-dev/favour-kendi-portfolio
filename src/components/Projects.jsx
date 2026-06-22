@@ -24,6 +24,30 @@ function Projects() {
       repoLink: '#',
       featured: false,
     },
+    {
+      title: 'Portfolio V1',
+      description: 'My first portfolio built with vanilla HTML, CSS, and JavaScript. Learned responsive design and DOM manipulation.',
+      stack: ['HTML5', 'CSS3', 'JavaScript'],
+      liveLink: '#',
+      repoLink: '#',
+      featured: false,
+    },
+    {
+      title: 'Calculator App',
+      description: 'A fully functional calculator with keyboard support, history tracking, and clean UI design.',
+      stack: ['JavaScript', 'CSS3', 'HTML5'],
+      liveLink: '#',
+      repoLink: '#',
+      featured: false,
+    },
+    {
+      title: 'Recipe Finder',
+      description: 'Search and save recipes using a public API. Features ingredient filtering and favorite saving with local storage.',
+      stack: ['JavaScript', 'API Integration', 'CSS3'],
+      liveLink: '#',
+      repoLink: '#',
+      featured: false,
+    },
   ]
 
   return (
@@ -43,9 +67,7 @@ function Projects() {
           {projects.map((project, index) => (
             <div
               key={index}
-              className={`bg-light rounded-2xl overflow-hidden border border-border hover:shadow-xl transition-shadow duration-300 ${
-                project.featured ? 'md:col-span-2 lg:col-span-1' : ''
-              }`}
+              className="bg-light rounded-2xl overflow-hidden border border-border hover:shadow-xl transition-shadow duration-300"
             >
               {/* Project Image Placeholder */}
               <div className="aspect-video bg-surface flex items-center justify-center border-b border-border">
