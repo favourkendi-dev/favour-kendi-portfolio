@@ -2,13 +2,13 @@ import Navbar from './components/Navbar'
 import About from './components/About'
 import Projects from './components/Projects'
 import Skills from './components/Skills'
+import Contact from './components/Contact'
 
 function App() {
   return (
     <div className="min-h-screen bg-light">
       <Navbar />
       <main className="pt-16">
-        {/* Hero Section */}
         <section id="home" className="min-h-screen flex items-center justify-center px-4">
           <div className="text-center">
             <h1 className="text-5xl font-bold text-primary mb-4">
@@ -29,6 +29,7 @@ function App() {
         <About />
         <Projects />
         <Skills />
+        <Contact />
       </main>
     </div>
   )
