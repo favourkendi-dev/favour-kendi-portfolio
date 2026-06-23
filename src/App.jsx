@@ -12,6 +12,12 @@ function App() {
       <main className="pt-16">
         <section id="home" className="min-h-screen flex items-center justify-center px-4">
           <div className="text-center">
+            {/* Available Badge */}
+            <div className="inline-flex items-center gap-2 px-4 py-2 bg-emerald-50 border border-emerald-200 rounded-full mb-6">
+              <span className="w-2 h-2 bg-emerald-500 rounded-full animate-pulse"></span>
+              <span className="text-emerald-700 text-sm font-medium">Available for opportunities</span>
+            </div>
+
             <h1 className="text-5xl font-bold text-primary mb-4">
               Hi, I'm Favour Kendi
             </h1>
@@ -38,4 +44,3 @@ function App() {
 }
 
 export default App
-
